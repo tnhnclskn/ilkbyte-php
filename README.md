@@ -14,6 +14,8 @@ Kütüphanede erişim anahtarlarını (access ve secret) belirtmek için 2 tip y
 Projenizde bulunuyorsa `.env` dosyası içerisine veya doğrudan sisteminize `ILKBYTE_ACCESS_KEY` ve `ILKBYTE_SECRET_KEY` parametrelerini tanımlamalısınız.
 
 ```php
+use Tnhnclskn\Ilkbyte\Ilkbyte;
+
 $ilkbyte = Ilkbyte::create();
 ```
 
@@ -21,6 +23,8 @@ $ilkbyte = Ilkbyte::create();
 Örnekteki gibi kendi erişim anahtarlarınızı tanımlamalısınız.
 
 ```php
+use Tnhnclskn\Ilkbyte\Ilkbyte;
+
 $ilkbyte = Ilkbyte::create([
     'access_key' => 'xxxxxxxxx',
     'secret_key' => 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
