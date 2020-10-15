@@ -3,7 +3,6 @@
 namespace Tnhnclskn\Ilkbyte;
 
 use Exception;
-use Dotenv\Dotenv;
 use GuzzleHttp\Client;
 
 class Ilkbyte
